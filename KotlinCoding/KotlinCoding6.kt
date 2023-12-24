@@ -5,7 +5,7 @@ package KotlinCoding
 //str은 부호(+,-)와 숫자로만 구성되어 있고, 잘못된 값이 입력되는 경우는 없습니다.
 
 //프로그래머스 답
-//class Solution {
+//class Solution6 {
 //    fun solution(s: String): Int {
 //        return s.toInt()
 //    }
