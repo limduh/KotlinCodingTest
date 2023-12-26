@@ -1,5 +1,7 @@
 package KotlinCoding
 
+
+
 class Solution5 {
     fun solution(a: Int, b: Int): Long {
         var answer = 0L
