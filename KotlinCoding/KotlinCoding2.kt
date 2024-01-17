@@ -15,3 +15,5 @@ package KotlinCoding
 //    println("a = $a")
 //    println("b = $b")
 //}
+
+//map(String::toInt)틀림
