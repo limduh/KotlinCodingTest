@@ -9,4 +9,10 @@ package KotlinCoding
 //    print(str)
 //}
 //
-//
+
+
+//arg:<String>나 args:<String>은 안된다.
+//fun main(arg:<String>) {
+//    val str : String = readln()!!
+//    print(str)
+//}

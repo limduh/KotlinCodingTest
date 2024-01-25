@@ -11,15 +11,15 @@ package KotlinCoding
 //    }
 //}
 
-// 내 답
-fun main() {
-
-//    val a : String = readln()
-//    val b : Int = a.toInt()
-//    print(b)
-
-
-fun solution(s: String): Int {
-    return s.toInt()
-}
-}
+//// 내 답
+//fun main() {
+//
+////    val a : String = readln()
+////    val b : Int = a.toInt()
+////    print(b)
+//
+//
+//fun solution(s: String): Int {
+//    return s.toInt()
+//}
+//}
