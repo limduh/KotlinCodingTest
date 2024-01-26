@@ -9,11 +9,6 @@ package KotlinCoding
 //a = 4
 //b = 5
 //
-//fun main(args: Array<String>) {
-//    val (a, b) = readln().split(' ').map(String::toInt)
 //
-//    println("a = $a")
-//    println("b = $b")
-//}
 
-//map(String::toInt)틀림
+//readln().split(' ').map(String::toInt)틀림
