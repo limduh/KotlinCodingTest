@@ -18,3 +18,5 @@ package KotlinCoding
 //        print(s1)
 //    }
 //}
+
+//until 다음 미만으로 생각해야한다.
