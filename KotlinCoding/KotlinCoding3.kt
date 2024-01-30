@@ -19,5 +19,6 @@ fun main(args: Array<String>) {
     }
 }
 
+//변수 만들기
 //until 다음 미만으로 생각해야한다.
 //0을 넣고 디버깅 해보기

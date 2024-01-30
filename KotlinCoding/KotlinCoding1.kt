@@ -16,4 +16,3 @@ package KotlinCoding
 //    val str : String = readln()!!
 //    print(str)
 //}
-//git 관련 다시 보내기
