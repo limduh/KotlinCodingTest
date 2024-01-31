@@ -1,16 +1,16 @@
 package KotlinCoding
 //
 //문제 설명
-//정수 num이 짝수일 경우 "Even"을 반환하고 홀수인 경우 "Odd"를 반환하는 함수, solution을 완성해주세요.
+//영어 알파벳으로 이루어진 문자열 str이 주어집니다. 각 알파벳을 대문자는 소문자로 소문자는 대문자로 변환해서 출력하는 코드를 작성해 보세요.
 //
-//제한 조건
-//num은 int 범위의 정수입니다.
-//0은 짝수입니다.
+//제한사항
+//1 ≤ str의 길이 ≤ 20
+//str은 알파벳으로 이루어진 문자열입니다.
 //입출력 예
-//num	return
-//3	"Odd"
-//4	"Even"
+//입력 #1
+//
+//aBcDeFg
+//출력 #1
+//
+//AbCdEfG
 
-class Solution4 {
-    fun solution(num: Int): String = if (num % 2 == 0) "Even" else "Odd"
-}
