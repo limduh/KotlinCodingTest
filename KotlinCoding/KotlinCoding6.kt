@@ -1,25 +1,21 @@
 package KotlinCoding
 //
+//
+//문제 설명
+//두 정수 a, b가 주어질 때 다음과 같은 형태의 계산식을 출력하는 코드를 작성해 보세요.
+//
+//a + b = c
+
 //입출력 예
-//예를들어 str이 "1234"이면 1234를 반환하고, "-1234"이면 -1234를 반환하면 됩니다.
-//str은 부호(+,-)와 숫자로만 구성되어 있고, 잘못된 값이 입력되는 경우는 없습니다.
+//입력
+//4 5
 
-//프로그래머스 답
-//class Solution6 {
-//    fun solution(s: String): Int {
-//        return s.toInt()
-//    }
-//}
+//출력
+//4 + 5 = 9
 
-//// 내 답
-//fun main() {
+//fun main(args: Array<String>) {
+//    val (a, b) = readLine()!!.split(' ').map(String::toInt)
+//    val c = (a + b)
 //
-////    val a : String = readln()
-////    val b : Int = a.toInt()
-////    print(b)
-//
-//
-//fun solution(s: String): Int {
-//    return s.toInt()
-//}
+//    println("$a + $b = $c")
 //}
