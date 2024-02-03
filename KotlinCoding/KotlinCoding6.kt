@@ -1,21 +1,26 @@
 package KotlinCoding
+////
+//문자열 str이 주어집니다.
+//문자열을 시계방향으로 90도 돌려서 아래 입출력 예와 같이 출력하는 코드를 작성해 보세요.
 //
+//제한사항
+//1 ≤ str의 길이 ≤ 10
 //
-//문제 설명
-//두 정수 a, b가 주어질 때 다음과 같은 형태의 계산식을 출력하는 코드를 작성해 보세요.
-//
-//a + b = c
-
 //입출력 예
-//입력
-//4 5
-
-//출력
-//4 + 5 = 9
-
-//fun main(args: Array<String>) {
-//    val (a, b) = readLine()!!.split(' ').map(String::toInt)
-//    val c = (a + b)
+//입력 #1
 //
-//    println("$a + $b = $c")
-//}
+//abcde
+//출력 #1
+//
+//a
+//b
+//c
+//d
+//e
+
+fun main(args: Array<String>) {
+    val s1 = readLine()!!
+    for(s in s1) {
+        println(s)
+    }
+}
