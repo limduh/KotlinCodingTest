@@ -18,9 +18,19 @@ package KotlinCoding
 //d
 //e
 
-fun main(args: Array<String>) {
-    val s1 = readLine()!!
-    for(s in s1) {
-        println(s)
-    }
-}
+//fun main(args: Array<String>) {
+//    val s1 = readLine()!!
+//    for(s in s1) {
+//        println(s)
+//    }
+//}
+//
+//
+//
+//fun main(args: Array<String>) {
+//    val s1 = readLine()!!
+//    for (i in s1) {
+//        println(i)
+//    }
+//}
+////}s1.indices 로 abcdef하면 012345가 세로로 출력된다.
