@@ -1,11 +1,16 @@
 package KotlinCoding
+
+/*문자열 my_string, overwrite_string과 정수 s가 주어집니다. 문자열 my_string의 인덱스 s부터 overwrite_string의 길이만큼을 문자열 overwrite_string으로 바꾼 문자열을 return 하는 solution 함수를 작성해 주세요.*/
+
+
+
+
+//fun main() {
+//    val a = Solution()
+//    print("${a.solution("He11oWor1d","lloWorl",2)}")
+//}
 //
-//정수 num이 짝수일 경우 "Even"을 반환하고 홀수인 경우 "Odd"를 반환하는 함수, solution을 완성해주세요.
 //
-//제한 조건
-//num은 int 범위의 정수입니다.
-//0은 짝수입니다.
-//입출력 예
-//num	return
-//3	"Odd"
-//4	"Even"
+//class Solution {
+//    fun solution(myString: String, overwriteString: String, s: Int) = myString.substring(0, s) + overwriteString + myString.substring(s + overwriteString.length)
+//}
