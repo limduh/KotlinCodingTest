@@ -6,11 +6,11 @@ package KotlinCoding
 
 
 //fun main() {
-//    val a = Solution()
+//    val a = Solution8()
 //    print("${a.solution("He11oWor1d","lloWorl",2)}")
 //}
 //
 //
-//class Solution {
+//class Solution8 {
 //    fun solution(myString: String, overwriteString: String, s: Int) = myString.substring(0, s) + overwriteString + myString.substring(s + overwriteString.length)
 //}
