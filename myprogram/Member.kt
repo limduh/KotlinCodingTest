@@ -9,7 +9,7 @@ fun main() {
         Member("워윅"), Member("냥뇽녕냥"), Member("쵸단"), Member("문월")
     )
 
-    // 팀 구성 및 불침번 순서 랜덤 설정
+    // 팀 구성 및 불침번 순서 랜덤 설정//
     val teams = generateRandomTeams(members)
     val burnOrder = generateRandomBurnOrder(teams.size)
 
