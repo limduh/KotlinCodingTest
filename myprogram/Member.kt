@@ -11,17 +11,8 @@ fun main() {
 
     // 팀 구성 및 불침번 순서 랜덤 설정//
     val teams = generateRandomTeams(members)
-    val burnOrder = generateRandomBurnOrder(teams.size)
 
-    // 총 4번의 불침번
-    repeat(4) { round ->
-        println("======== ${round + 1}번째 불침번 ========")
-        for (i in teams.indices) {
-            val team = teams[(i + round) % teams.size]
-            val burnMember = team[burnOrder[i]]
-            println("${team[0].name} vs ${team[1].name} : $burnMember 불침번!")
-        }
-    }
+    println("불침번 순서 및 조원  $teams")
 }
 
 fun generateRandomTeams(members: List<Member>): List<List<Member>> {
@@ -35,7 +26,4 @@ fun generateRandomTeams(members: List<Member>): List<List<Member>> {
     return teams
 }
 
-fun generateRandomBurnOrder(teamCount: Int): List<Int> {
-    return (0 until teamCount).shuffled()
-}
 
